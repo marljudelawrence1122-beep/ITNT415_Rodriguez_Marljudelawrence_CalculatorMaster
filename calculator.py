@@ -8,13 +8,15 @@ def get_number(prompt):
             print("Invalid input. Please enter a numeric value (e.g., 4 or 3.5).")
 
 def print_menu():
-    print("\n===== Calculator Master =====")
-    print("1. Addition")
-    print("2. Subtraction")
-    print("3. Multiplication")
-    print("4. Division")
-    print("5. Exit")
-    print("==============================")
+    print("┌──────────────────────────────────┐")
+    print("│     🧮 CALCULATOR MASTER         │")
+    print("├──────────────────────────────────┤")
+    print("│  [1] ➕ Addition                 │")
+    print("│  [2] ➖ Subtraction              │")
+    print("│  [3] ✖️  Multiplication           │")
+    print("│  [4] ➗ Division                  │")
+    print("│  [5] 🚪 Exit                     │")
+    print("└──────────────────────────────────┘")
 
 def main():
     while True:
